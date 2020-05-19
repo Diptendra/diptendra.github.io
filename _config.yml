@@ -84,3 +84,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# To change the theme of the github page
+theme: jekyll-theme-hacker
