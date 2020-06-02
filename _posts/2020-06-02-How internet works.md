@@ -22,7 +22,7 @@ In this section, I will present the key hardware which forms the backbone of the
       
       From our above example, we can think of a server as the physics teacher - who is vacationing somewhere in California. She can share her lecture notes with the student (client) to help him understand the concept. 
 
-![]({{ site.baseurl }}/internet/client_server.png)
+      ![]({{ site.baseurl }}/internet/client_server.png)
 
   3. [DNS Server](https://www.cloudflare.com/learning/dns/what-is-a-dns-server/): This is a powerful computer whose main job is to act as an address directory. When we type in `www.google.com` or `www.netflix.com` into web browsers, the DNS server's responsibility is to convert the name into its IP address so that, our request for visiting these websites can be forwarded to the right server. 
   
@@ -30,19 +30,19 @@ In this section, I will present the key hardware which forms the backbone of the
 
   4. [Wireless Router](https://en.wikipedia.org/wiki/Wireless_router): A wireless router - the one we mostly use in our home to connect to the internet, is a device which acts as a bridge between our laptops/smartphones and the Internet Service Providers (ISP) like ACT in India and Xfinity in the USA. The main purpose of this device is to send and receive radio waves - floating in the air and invisible to us, to and from another device like a laptop/smartphone.   
 
-![]({{ site.baseurl }}/internet/wifi_router.jpg)
+      ![]({{ site.baseurl }}/internet/wifi_router.jpg)
 
   5. [Network Switch](https://en.wikipedia.org/wiki/Network_switch): This is a special type of hardware that can connect one or many devices to a network - which can send and receive information to and from other switches or servers. Usually, we don't see a network switch in our house as it is expensive for the Internet Service Providers to do that. Instead, ISP has one network switch for multiple households to make the network more efficient. 
   
        An easy analogy to think about network switch is that they act like the local postman - who picks up letters from a small post office and distributes it to the area he is assigned to and picks up all the letters that need to be sent to other places. The only difference is that the network switch does its job at the speed of light - which means faster than a blink of an eye.
 
-![]({{ site.baseurl }}/internet/network_switch.jpg)
+       ![]({{ site.baseurl }}/internet/network_switch.jpg)
 
   6. [Fibre-Optic Cable](https://en.wikipedia.org/wiki/Fiber-optic_cable): It is a cable that looks like any other cable we see in our house from outside but inside there are optical fibers rather than metallic wires. Optical fibers are flexible, transparent hollow pipes made up of a special type of plastic or glass so that light can travel through them. The primary reason for using an optical fiber over a metallic wire is to reduce the loss of information. 
   
        In our analogy, a fiber-optic cable can be thought of as a cycle/motorcycle used by the postman to travel to and from the post-office. A medium that is used to deliver letters from post-office to our homes. 
 
-![]({{ site.baseurl }}/internet/optical_fibres.jpg)
+       ![]({{ site.baseurl }}/internet/optical_fibres.jpg)
 
 ## 2. [Software](https://en.wikipedia.org/wiki/Software)
 
