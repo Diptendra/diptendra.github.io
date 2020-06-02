@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How Internet Works: Demystifying the Technical Details
-urlcolor: BrickRed
 ---
 
 Last Sunday, I was talking to my mother and she said "Do you even know, how difficult it was to do assignments in my college days. We had to go to the library, look at 10 books. Your generation is so lucky, you just search on the Internet and be done with it". That's when I realized, despite browsing the internet so much, I never paid attention to the workings of the internet. 
@@ -22,7 +21,7 @@ In other words, a client can be thought of as a laptop/smartphone or a web brows
 
 From our above example, we can think of a server as the physics teacher - who is vacationing somewhere in California. She can share her lecture notes with the student (client) to help him understand the concept. 
 
-![]({{ site.baseurl }}/How internet works/client_server.png)
+![]({{ site.baseurl }}/internet/client_server.png)
 
 3. [DNS Server](https://www.cloudflare.com/learning/dns/what-is-a-dns-server/): This is a powerful computer whose main job is to act as an address directory. When we type in `www.google.com` or `www.netflix.com` into web browsers, the DNS server's responsibility is to convert the name into its IP address so that, our request for visiting these websites can be forwarded to the right server. 
 
@@ -30,19 +29,19 @@ In our physical world, the DNS server can be thought of as a super-human who can
 
 4. [Wireless Router](https://en.wikipedia.org/wiki/Wireless_router): A wireless router - the one we mostly use in our home to connect to the internet, is a device which acts as a bridge between our laptops/smartphones and the Internet Service Providers (ISP) like ACT in India and Xfinity in the USA. The main purpose of this device is to send and receive radio waves - floating in the air and invisible to us, to and from another device like a laptop/smartphone.   
 
-![]({{ site.baseurl }}/How internet works/wifi_router.jpeg)
+![]({{ site.baseurl }}/internet/wifi_router.jpeg)
 
 5. [Network Switch](https://en.wikipedia.org/wiki/Network_switch): This is a special type of hardware that can connect one or many devices to a network - which can send and receive information to and from other switches or servers. Usually, we don't see a network switch in our house as it is expensive for the Internet Service Providers to do that. Instead, ISP has one network switch for multiple households to make the network more efficient. 
 
 An easy analogy to think about network switch is that they act like the local postman - who picks up letters from a small post office and distributes it to the area he is assigned to and picks up all the letters that need to be sent to other places. The only difference is that the network switch does its job at the speed of light - which means faster than a blink of an eye.
 
-![]({{ site.baseurl }}/How internet works/network_switch.jpeg)
+![]({{ site.baseurl }}/internet/network_switch.jpeg)
 
 6. [Fibre-Optic Cable](https://en.wikipedia.org/wiki/Fiber-optic_cable): It is a cable that looks like any other cable we see in our house from outside but inside there are optical fibers rather than metallic wires. Optical fibers are flexible, transparent hollow pipes made up of a special type of plastic or glass so that light can travel through them. The primary reason for using an optical fiber over a metallic wire is to reduce the loss of information. 
 
 In our analogy, a fiber-optic cable can be thought of as a cycle/motorcycle used by the postman to travel to and from the post-office. A medium that is used to deliver letters from post-office to our homes. 
 
-![]({{ site.baseurl }}/How internet works/optical_fibres.jpeg)
+![]({{ site.baseurl }}/internet/optical_fibres.jpeg)
 
 ## [Software](https://en.wikipedia.org/wiki/Software)
 
@@ -80,13 +79,13 @@ The ISP network sends it forward to the DNS system that converts `google.com` in
 
 Now, the DNS system appropriately forwards it to the network switch, which then, based on the traffic on the internet, sends it forward to the country's main node (You can think of this as the node where all the optical cables come together). Assuming India's main node in Delhi, the signal goes through under the sea by optical fibers and travels to California, US in just 47 milliseconds (This might be more but for practical purposes, it will still be very less). Below is the picture of all the main optical fibers laid out in the world from the website of [Information Geographies](https://geography.oii.ox.ac.uk/).
 
-![]({{ site.baseurl }}/How internet works/InternetTube.jpg)
+![]({{ site.baseurl }}/internet/InternetTube.jpg)
 
 Once it reaches the shores of California, it fetches the data from the server given by the IP address and comes back in the same way. This whole process takes around 2-3 seconds and in some cases less than that. This whole process happens every time we search for something online, or we order our favorite pairs of sneakers from 'www.amazon.com` or watch our favorite show on `www.netflix.com`. Finally, two images say a thousand words. 
 
-![]({{ site.baseurl }}/How internet works/world_map.jpg)
+![]({{ site.baseurl }}/internet/world_map.jpg)
 
-![]({{ site.baseurl }}/How internet works/backbone.jpg)
+![]({{ site.baseurl }}/internet/backbone.jpg)
 
 **To summarise**: 
 
