@@ -1,7 +1,7 @@
 ---
-layout: post
-title: How Internet Works: Demystifying the Technical Details
-urlcolor: BrickRed
+layout:post
+title:How Internet Works: Demystifying the Technical Details
+urlcolor:BrickRed
 ---
 
 Last Sunday, I was talking to my mother and she said "Do you even know, how difficult it was to do assignments in my college days. We had to go to the library, look at 10 books. Your generation is so lucky, you just search on the Internet and be done with it". That's when I realized, despite browsing the internet so much, I never paid attention to the workings of the internet. 
