@@ -26,7 +26,7 @@ In this section, I will present the key hardware which forms the backbone of the
 
   3. [DNS Server](https://www.cloudflare.com/learning/dns/what-is-a-dns-server/): This is a powerful computer whose main job is to act as an address directory. When we type in `www.google.com` or `www.netflix.com` into web browsers, the DNS server's responsibility is to convert the name into its IP address so that, our request for visiting these websites can be forwarded to the right server. 
   
-  In our physical world, the DNS server can be thought of as a super-human who can quickly write down the exact house address of any given name, if it exists. An IP address is a unique number like ` 8.8.4.4`, given to each device connected to the internet. It helps in tracking the location of the device and sending the request to it. It works like our physical house address - which is used to deliver a letter by our beloved local postman.
+       In our physical world, the DNS server can be thought of as a super-human who can quickly write down the exact house address of any given name, if it exists. An IP address is a unique number like ` 8.8.4.4`, given to each device connected to the internet. It helps in tracking the location of the device and sending the request to it. It works like our physical house address - which is used to deliver a letter by our beloved local postman.
 
   4. [Wireless Router](https://en.wikipedia.org/wiki/Wireless_router): A wireless router - the one we mostly use in our home to connect to the internet, is a device which acts as a bridge between our laptops/smartphones and the Internet Service Providers (ISP) like ACT in India and Xfinity in the USA. The main purpose of this device is to send and receive radio waves - floating in the air and invisible to us, to and from another device like a laptop/smartphone.   
 
@@ -34,13 +34,13 @@ In this section, I will present the key hardware which forms the backbone of the
 
   5. [Network Switch](https://en.wikipedia.org/wiki/Network_switch): This is a special type of hardware that can connect one or many devices to a network - which can send and receive information to and from other switches or servers. Usually, we don't see a network switch in our house as it is expensive for the Internet Service Providers to do that. Instead, ISP has one network switch for multiple households to make the network more efficient. 
   
-  An easy analogy to think about network switch is that they act like the local postman - who picks up letters from a small post office and distributes it to the area he is assigned to and picks up all the letters that need to be sent to other places. The only difference is that the network switch does its job at the speed of light - which means faster than a blink of an eye.
+       An easy analogy to think about network switch is that they act like the local postman - who picks up letters from a small post office and distributes it to the area he is assigned to and picks up all the letters that need to be sent to other places. The only difference is that the network switch does its job at the speed of light - which means faster than a blink of an eye.
 
 ![]({{ site.baseurl }}/internet/network_switch.jpg)
 
   6. [Fibre-Optic Cable](https://en.wikipedia.org/wiki/Fiber-optic_cable): It is a cable that looks like any other cable we see in our house from outside but inside there are optical fibers rather than metallic wires. Optical fibers are flexible, transparent hollow pipes made up of a special type of plastic or glass so that light can travel through them. The primary reason for using an optical fiber over a metallic wire is to reduce the loss of information. 
   
-  In our analogy, a fiber-optic cable can be thought of as a cycle/motorcycle used by the postman to travel to and from the post-office. A medium that is used to deliver letters from post-office to our homes. 
+       In our analogy, a fiber-optic cable can be thought of as a cycle/motorcycle used by the postman to travel to and from the post-office. A medium that is used to deliver letters from post-office to our homes. 
 
 ![]({{ site.baseurl }}/internet/optical_fibres.jpg)
 
@@ -50,13 +50,13 @@ A _computer software_ is a set of instructions and data written in a way that de
 
   1. [Web Browser](https://en.wikipedia.org/wiki/Web_browser): A _browser_, like [Google Chrome](https://www.google.com/chrome/) - which you are probably using to view this post, is a specialized software that accesses information provided by the World Wide Web service. When a user types in `https://www.netflix.com/`, the browser shows the content of the home webpage of the website. 
   
-  If you remember our dedicated physics student, the web browser can be thought of as his desk and dictionary - which enables him to write a clear and concise letter to the professor asking about his doubts.
+       If you remember our dedicated physics student, the web browser can be thought of as his desk and dictionary - which enables him to write a clear and concise letter to the professor asking about his doubts.
   
   2. [Webpage and Website](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines): The simplest way to define a webpage is to think it as a page of a physical book and a website is a collection of pages and can be thought of as a full physical copy of the book. 
   
-  In our case, when we type `https://www.netflix.com/`, the content we see is a webpage (sometimes this landing webpage is called the home page of Netflix) and collection of all the pages like a separate page for movies (`https://www.netflix.com/browse/genre/34399`) and TV shows (`https://www.netflix.com/browse/genre/83`) is what we call Netflix website.
+       In our case, when we type `https://www.netflix.com/`, the content we see is a webpage (sometimes this landing webpage is called the home page of Netflix) and collection of all the pages like a separate page for movies (`https://www.netflix.com/browse/genre/34399`) and TV shows (`https://www.netflix.com/browse/genre/83`) is what we call Netflix website.
   
-  Another way to think about the webpage is the letter written by the professor to the student and website as the lecture notes of the professor on the same topic. 
+       Another way to think about the webpage is the letter written by the professor to the student and website as the lecture notes of the professor on the same topic. 
 
 ## 3. [Computer Communication](https://en.wikipedia.org/wiki/Computer_network)
 
@@ -64,11 +64,11 @@ Finally, the last key component required to understand the workings of the inter
 
   1. [HTTP/HTTPS](https://en.wikipedia.org/wiki/HTTPS): HTTPS is a network protocol to allow the transfer of data over the internet. It stands for the Hypertext Transfer Protocol Secure (HTTPS) which is an extension of HTTP and more secure. You must have experienced a browser flashing a warning sign mentioning that the website is not secure. Most likely, it was because the protocol was not HTTPS.
   
-  If we think hard and try to see an equivalent of HTTPS in our day to day life, it will be our signatures - that helps in authenticating who we are. We do it in banks, mutual funds, etc.
+       If we think hard and try to see an equivalent of HTTPS in our day to day life, it will be our signatures - that helps in authenticating who we are. We do it in banks, mutual funds, etc.
   
   2. [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web): WWW is a collection of webpages and websites where a user can access that using the internet. 
   
-  For a long time, I thought the internet and www are the same but unfortunately, it is not. WWW is an application on the internet just like the delivery of letters using postal service. As a postal service can also deliver parcels other than letters, the internet can also provide other services apart from www. Those are file sharing, compute sharing, or email transfer. 
+      For a long time, I thought the internet and www are the same but unfortunately, it is not. WWW is an application on the internet just like the delivery of letters using postal service. As a postal service can also deliver parcels other than letters, the internet can also provide other services apart from www. Those are file sharing, compute sharing, or email transfer. 
 
 ## Combination of software, hardware and communication protocols makes the internet possible
 
