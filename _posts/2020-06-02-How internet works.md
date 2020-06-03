@@ -4,9 +4,9 @@ title: How Internet Works - Demystifying the Technical Details
 urlcolor: BrickRed
 ---
 
-Last Sunday, I was talking to my mother and she said "Do you even know, how difficult it was to do assignments in my college days. We had to go to the library, look at 10 books. Your generation is so lucky, you just search on the Internet and be done with it". That's when I realized, despite browsing the internet so much, I never paid attention to the workings of the internet. 
+Last Sunday, I was talking to my mother and she said "Do you even know, how difficult it was to do assignments in my college days. We had to go to the library, look at 10 books. Your generation is so lucky, you just search on the Internet and be done with it but how does it know everything?". That's when I realized, despite browsing the internet so much, I never paid attention to the workings of the internet. 
 
-I decided to deep-dive - with no background in computer science, to understand the hows of the internet. After a week, I feel confident enough to share my learnings with you, especially those - who want to understand the big picture of _"How the Internet Works"_ and the different parts to it. But, before we begin, there are some key "complicated-looking words" which we have to understand to appreciate the simplicity yet the complex nature of the internet. 
+I decided to deep-dive - with no background in computer science, to understand the workings of the internet. After a week, I feel confident enough to share my learnings with you, especially those - who want to understand the big picture of _"How the Internet Works"_ and the different parts to it. But, before we begin, there are some key "complicated-looking words" which we have to understand to appreciate the simplicity yet the complex nature of the internet. 
 
 ## 1. [Hardware](https://en.wikipedia.org/wiki/Computer_hardware)
 
