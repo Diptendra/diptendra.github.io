@@ -1,0 +1,33 @@
+```{r, setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      fig.align = 'center', 
+                      #tidy.opts = list(width.cutoff=60),
+                      tidy=TRUE)
+                      #fig.width=6, 
+                      #fig.height=6, 
+                      #out.width = '50%')
+```
+
+---
+layout: post
+title: How Internet Works - Demystifying the Technical Details
+urlcolor: BrickRed
+---
+
+Last Sunday, I was talking to my mother and she said "Do you even know, how difficult it was to do assignments in my college days. We had to go to the library, look at 10 books. Your generation is so lucky, you just search on the Internet and be done with it". That's when I realized, despite browsing the internet so much, I never paid attention to the workings of the internet. 
+
+I decided to deep-dive - with no background in computer science, to understand the hows of the internet. After a week, I feel confident enough to share my learnings with you, especially those - who want to understand the big picture of _"How the Internet Works"_ and the different parts to it. But, before we begin, there are some key "complicated-looking words" which we have to understand to appreciate the simplicity yet the complex nature of the internet. 
+
+## 1. [Hardware](https://en.wikipedia.org/wiki/Computer_hardware)
+
+As the name suggests, a piece of _hardware_ is a thing that has a physical existence like a laptop, smartphone, mouse, keyboard, or the internal components of these devices. From a user's perspective, there are two kinds of hardware. **First**, the hardware which we use in our daily lives - that are visible to us, like our laptops, smartphones, and printers. **Second**, the ones we don't see like the chips inside our phones, servers, or network switches. 
+
+In this section, I will present the key hardware which forms the backbone of the internet. For each hardware, I will define the hardware in technical terms and then will take an analogy in our physical surroundings to explain the concept concretely and easily.
+
+  1. [Client](https://en.wikipedia.org/wiki/Client_(computing)#:~:text=A%20client%20is%20a%20piece,by%20way%20of%20a%20network): A _client_ is a piece of computer hardware or software that accesses a service made available by a server. The server is often (but not always) on another computer system, in which case the client accesses the service by way of a network (Wikipedia).
+  
+     In other words, a client can be thought of as a laptop/smartphone or a web browser like Google Chrome. Sometimes the technical definition can be confusing but for our purpose, we can think of our laptop/smartphone as a client. In our physical world, we can think of a _**student in India**_ as a client, who wants to understand an esoteric physics concept from his teacher - who is vacationing somewhere in California. 
+  
+  2. [Server](https://en.wikipedia.org/wiki/Server_(computing)): A _server_ is a computer program or a device that provides functionality for other programs or devices, called "clients" (Wikipedia). It provides various functionalities, called "services", such as sharing data or website among multiple clients or performing computation for a single client. 
+  From our above example, we can think of a server as the physics teacher - who is vacationing somewhere in California. She can share her lecture notes with the student (client) to help him understand the concept. 
+
